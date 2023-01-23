@@ -10,6 +10,7 @@ const AddTodo = () => {
         placeholder="Add a todo..."
       />
       <button 
+        data-testid="add-to-do-btn"
         type="button"
         aria-label="Add todo"
         className="text-paper-100 bg-primary-200 h-full p-4 rounded-r-lg"
